@@ -3,8 +3,8 @@ import 'objects1.dart';
 import 'objects2.dart';
 import 'objects3.dart';
 import 'objects4.dart';
-// import 'objects5.dart';
-// import 'objects6.dart';
+import 'objects5.dart';
+import 'objects6.dart';
 
 
 void main(){
@@ -80,8 +80,8 @@ body: const SingleChildScrollView(
         ),
         BodyTextThree(
           text3: 'Description',),
-        //   BodyTextFour(text6: 'Size'),
-        //   BodyTextFive(text7: 'Price', text8: '\$4.53',)
+          BodyTextFour(text6: 'Size'),
+          BodyTextFive(text7: 'Price', text8: '\$4.53',)
     ],
   )
   ),
