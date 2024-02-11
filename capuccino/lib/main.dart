@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'objects1.dart';
+import 'objects1.dart';
 // import 'objects2.dart';
 // import 'objects3.dart';
 // import 'objects4.dart';
@@ -38,13 +38,13 @@ appBar: AppBar(
     child: Row(
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
-      //  ImageOne(),
-      //  Spacer(),
-      //  TopText(
-      //   text: 'Detail',
-      //  ),
-      //  Spacer(),
-      //  ImageTwo(),
+       ImageOne(),
+       Spacer(),
+       TopText(
+        text: 'Detail',
+       ),
+       Spacer(),
+       ImageTwo(),
       ],
     ),
   )
