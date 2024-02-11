@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'objects1.dart';
-// import 'objects2.dart';
+import 'objects2.dart';
 // import 'objects3.dart';
 // import 'objects4.dart';
 // import 'objects5.dart';
@@ -52,11 +52,11 @@ appBar: AppBar(
 body: const SingleChildScrollView(
   child: Column(
     children: [
-        // ImageThree(),
-        // BodyTextOne(
-        //   textOne:'Cappucino',
-        //   textTwo:'with Chocolate',
-        // ),
+        ImageThree(),
+        BodyTextOne(
+          textOne:'Cappucino',
+          textTwo:'with Chocolate',
+        ),
 
         // Padding(
         //   padding: EdgeInsets.only(left: 32, right: 25, top: 5),
