@@ -8,4 +8,4 @@ This a flutter project that contains a homepage of a Capuccino item
 -    This screenshot was taken on my mobile device
 -    Created by Otuonyeaedike Chisom Golden (Group A)
 -    First Academy
-![Screenshot of Android Project HomePage UI](./capuccino/assets/images/Screenshot.jpg)
+![Screenshot of Android Project HomePage UI](./assets/images/Screenshot.jpg)
