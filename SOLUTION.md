@@ -1,4 +1,4 @@
-#Flutter Project - Cappucino
+# Flutter Project - Cappucino
 This a flutter project that contains a homepage of a Capuccino item
 -   The page give details of the work capuccino
 -   The various sizes to select from
