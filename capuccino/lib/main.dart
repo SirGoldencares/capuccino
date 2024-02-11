@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'objects1.dart';
-import 'objects2.dart';
-import 'objects3.dart';
-import 'objects4.dart';
-import 'objects5.dart';
-import 'objects6.dart';
+// import 'objects1.dart';
+// import 'objects2.dart';
+// import 'objects3.dart';
+// import 'objects4.dart';
+// import 'objects5.dart';
+// import 'objects6.dart';
 
 
 void main(){
@@ -38,13 +38,13 @@ appBar: AppBar(
     child: Row(
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
-       ImageOne(),
-       Spacer(),
-       TopText(
-        text: 'Detail',
-       ),
-       Spacer(),
-       ImageTwo(),
+      //  ImageOne(),
+      //  Spacer(),
+      //  TopText(
+      //   text: 'Detail',
+      //  ),
+      //  Spacer(),
+      //  ImageTwo(),
       ],
     ),
   )
@@ -52,36 +52,36 @@ appBar: AppBar(
 body: const SingleChildScrollView(
   child: Column(
     children: [
-        ImageThree(),
-        BodyTextOne(
-          textOne:'Cappucino',
-          textTwo:'with Chocolate',
-        ),
+        // ImageThree(),
+        // BodyTextOne(
+        //   textOne:'Cappucino',
+        //   textTwo:'with Chocolate',
+        // ),
 
-        Padding(
-          padding: EdgeInsets.only(left: 32, right: 25, top: 5),
-          child: Row(
-            children: [
-              Icon(Icons.star, color: Color.fromRGBO(251, 190, 33, 1),),
-              BodyTextTwo(text1: '4.8', text2: '(230)'),
-              Spacer(),
-              ImageFour(),
-              ImageFive(),
-            ],
-          ),
-        ),
-        SizedBox(
-          width: 320,
-          child: Divider(
-                color: Color.fromRGBO(155, 155, 155, 1),
-                thickness: .5, 
+        // Padding(
+        //   padding: EdgeInsets.only(left: 32, right: 25, top: 5),
+        //   child: Row(
+        //     children: [
+        //       Icon(Icons.star, color: Color.fromRGBO(251, 190, 33, 1),),
+        //       BodyTextTwo(text1: '4.8', text2: '(230)'),
+        //       Spacer(),
+        //       ImageFour(),
+        //       ImageFive(),
+        //     ],
+        //   ),
+        // ),
+        // SizedBox(
+        //   width: 320,
+        //   child: Divider(
+        //         color: Color.fromRGBO(155, 155, 155, 1),
+        //         thickness: .5, 
                 
-              ),
-        ),
-        BodyTextThree(
-          text3: 'Description',),
-          BodyTextFour(text6: 'Size'),
-          BodyTextFive(text7: 'Price', text8: '\$4.53',)
+        //       ),
+        // ),
+        // BodyTextThree(
+        //   text3: 'Description',),
+        //   BodyTextFour(text6: 'Size'),
+        //   BodyTextFive(text7: 'Price', text8: '\$4.53',)
     ],
   )
   ),
