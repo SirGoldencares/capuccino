@@ -14,6 +14,16 @@ This a flutter project that contains a homepage of a Capuccino item
 -   All images used in the projects are located in the images sub-dir
 -   The Sora font was downloaded and copied to the fonts sub-dir
 -   The respective paths of all the assets were added to the pubsec.yaml file
+## CODE CONTENTS
+- `main.dart`: Contains the main entry point of the app and configures the MaterialApp.
+- `assets` folder: Contains Images and fonts
+- `objects1.dart`: Defines the `Appbar` widget for the top navigation bar.
+- `objects2.dart`: Defines the `Body` widget for the image and writeup.
+- `objects3.dart`: Defines the `Body` widget for the star icon, rating and other two capuccino image.
+- `objects4.dart`: Defines the `Body` widget for the decription of the capuccino.
+- `objects5.dart`: Defines the `Body` widget for the sizes selection ranging from S, M and L.
+- `objects6.dart`: Defines the `Body` widget for the prices.
+
 ## Challenges Encountered
 -  Due to my system not being able to install the emulator, I was able to use my android mobile device (developer option on) to debug and view the User Interface, (the screenshot as shown below)
 -  I encountered issues trying to assign different styling to text, used ChatAI and Flutter.dev to understand how to use richtext
